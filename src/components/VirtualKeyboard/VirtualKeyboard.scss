@@ -1,0 +1,9 @@
+.virtual-keyboard {
+  max-width: 400px;
+  &__letter-row {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: repeat(10, 1fr);
+    margin-bottom: 20px;
+  }
+}
